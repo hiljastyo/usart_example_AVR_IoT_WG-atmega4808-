@@ -1,11 +1,3 @@
-/* 
- * File:   usart.c
- * Author: Ville Hiljanen
- * email: hiljastyo@gmail.com
- *
- * Created on 14. lokakuuta 2020, 14:13
- */
-
 #define F_CPU 3333333
 #define USART2_BAUD_RATE(BAUD_RATE) ((float)(F_CPU * 64 / (16 * (float)BAUD_RATE)) + 0.5)
 
